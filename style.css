@@ -169,10 +169,18 @@ body{
     text-decoration: none;
     font-size: large;
     color: #120E43;
+    text-align: center;
 
    }
    .projects .contribution a{
     text-decoration: none;
     font-size: large;
     color: #120E43;
+    text-align: center;
+   }
+   .projects .personal li{
+    margin-left: 10%;
+   }
+   .projects .contribution li{
+    margin-left: 10%;
    }
