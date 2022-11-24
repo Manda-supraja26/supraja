@@ -1,0 +1,125 @@
+ body{ 
+ background-color: #CAD5E2;
+    
+ } 
+body .top h1{
+    color: #03203C;
+    text-align: center;
+    text-shadow: 1mm;
+    font-size:xx-large;
+    padding: auto;
+
+}
+body .top h1:hover{
+     background-color:#120E43 ;
+    color: white; 
+    /* border-radius: 20px;
+    transition-delay: 0.1s;  */
+
+    /* background: #dbdbdb; */
+    -webkit-transition: .5s all;   
+    -webkit-transition-delay: 5s; 
+    -moz-transition: .5s all;   
+    -moz-transition-delay: 5s; 
+    -ms-transition: .5s all;   
+    -ms-transition-delay: 5s; 
+    -o-transition: .5s all;   
+    -o-transition-delay: 5s; 
+    transition: .5s all;   
+    transition-delay: 0.2s; 
+    border-radius: 20px;
+}
+body .top hr{
+    
+    color: rgb(22, 120, 206);
+    
+
+}
+
+body nav{
+    text-align: center;
+}
+body nav li{
+    text-align: right;
+}
+body nav a{
+    text-decoration: none;
+    color: rgb(30, 9, 37);
+    
+    font-size: x-large;
+}
+body nav a span{
+    font-size:xx-large;
+    padding: 15px;
+    text-decoration: solid;
+    margin: auto;
+    
+
+    
+}
+body nav a :hover{
+    color: aqua;
+}
+
+
+body nav a span:hover{
+    color:#120E43 ;
+    background-size: auto;
+    background-color: #CAD5E2;
+    border: black;
+    border-radius: 10px;
+}
+body .image img{
+    margin-top: 30px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 5px;    
+    /* background-color: #146997; */
+    /* display: inline-block; */
+    align-self: auto;
+    border-radius: 60%;
+    box-shadow: inset;
+    filter: brightness(120%);
+   filter: contrast(120%);
+   filter: drop-shadow(5px 10px 6px #242B2E)
+}
+
+body .edu .sch {
+    display: grid;
+    float: left;
+    width: 50%;
+     /* padding: 10%;  */
+    margin-left: auto; 
+    margin-right: auto; 
+    margin-top: 30px;
+    
+
+}
+body .edu .sch img{
+    align-items: center;
+    padding: 10px;
+    
+}
+
+
+body .edu.sch  p{
+    text-align: center;
+    text-decoration: double;
+    font-size: large;
+    
+}
+body .edu .sch{
+    display: block;
+    border-radius: 20px;
+    background-color: rgb(255, 254, 253);
+    margin: 10px;
+}
+
+.resume {
+    align-content: center;
+    align-items: center;
+    padding-left: 25%;
+    padding-top: 5%;
+    padding-right: 25%;
+}
