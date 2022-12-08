@@ -184,3 +184,10 @@ body{
    .projects .contribution li{
     margin-left: 10%;
    }
+
+   .badges {
+    /* align-items: center; */
+    padding-left: 35%;
+    margin-top: 5%;
+    padding-right: 50%;
+   }
